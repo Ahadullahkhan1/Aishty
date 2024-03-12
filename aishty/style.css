@@ -1,0 +1,885 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+
+}
+
+.navbar-brand img {
+    height: 70px;
+    width: 250px;
+}
+
+.nav-link:hover {
+    color: #9F2D84;
+}
+
+#navlink1 {
+    color: #8F0476;
+}
+
+.nav-item a {
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+header {
+    height: 40px;
+    width: 100%;
+    background-color: #450D3A;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h5 {
+    padding: 4px 4px;
+    margin-top: 10px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 50px;
+    background-color: #FFC808;
+}
+
+header h6 {
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+header #icon {
+    margin-left: 200px;
+
+}
+
+.fa-envelope {
+    margin-left: 20px;
+}
+
+.q {
+    margin-left: 10px;
+    padding: 3px 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    font-weight: bold;
+    background-color: #FFC808;
+}
+
+.q:hover {
+    color: #450D3A;
+}
+
+.fa-brands {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+@media (max-width:600px) {
+    .navbar-brand img {
+        height: 50px;
+        width: 150px;
+    }
+
+    header {
+        height: 150px;
+        /* text-align: center; */
+        /* align-items: center; */
+    }
+
+    header h5 {
+        margin-left: 100px;
+    }
+
+    header h6 {
+        margin-left: 50px;
+    }
+
+    header #icon {
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+
+}
+
+.d-block {
+    height: 500px;
+}
+
+.th {
+    height: 350px;
+    width: 350px;
+    margin-top: -450px;
+    margin-left: 200px;
+}
+
+.carousel-item button {
+    border: none;
+    background-color: #005AFF;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+
+.btn {
+    margin-top: -270px;
+    margin-left: 470px;
+}
+
+.carousel-item button:hover {
+    background-color: #8E0475;
+}
+
+@media (max-width:600px) {
+    .d-block {
+        height: 200px;
+    }
+
+    .btn {
+        margin-left: 100px;
+        font-size: 5px;
+        margin-top: -100px;
+    }
+}
+
+#page2 {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#page2 h1 {
+    font-size: 24px;
+    margin-left: 100px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+#page2 h2 {
+    font-size: 18px;
+    margin-left: 160px;
+    font-weight: 700;
+}
+
+#page2 img {
+
+    margin-left: 100px;
+    margin-top: -30px;
+}
+
+#page2 p {
+    width: 720px;
+    font-size: 14px;
+    margin-left: 150px;
+    margin-top: -10px;
+}
+
+.h h2 {
+    width: 350px;
+    font-size: 18px;
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+    background-color: #94057B;
+    margin-top: -700px;
+}
+
+.h {
+    margin-left: 770px;
+}
+
+.form {
+    width: 350px;
+    background-color: #C1C1C1;
+    padding: 20px 20px;
+    font-size: 14px;
+    margin-left: 930px;
+    margin-top: -10px;
+}
+
+.form input {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.Enquiry input {
+    height: 200px;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #94057B;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    box-shadow: 1px 1px black;
+    transition: all 0.3s;
+}
+
+.form button:hover {
+    background-color: #E7B215;
+}
+
+#flag {
+    margin-top: 120px;
+}
+
+@media (max-width:600px) {
+    #page2 h1 {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+
+    #page2 h2 {
+        font-size: 12px;
+        margin-left: 59px;
+    }
+
+    #page2 img {
+        height: 30px;
+        margin-left: 30px;
+    }
+
+    #page2 p {
+        width: 250px;
+        margin-top: -20px;
+        margin-left: 65px;
+        font-size: 12px;
+    }
+
+    .h h2 {
+        width: 300px;
+    }
+
+    .h {
+        margin-left: -9px;
+        margin-top: 750px;
+    }
+
+    .form {
+        width: 300px;
+        margin-top: -8px;
+        margin-left: 50px;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    #flag img {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.card {
+    border: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    gap: 50px;
+}
+
+.card1 {
+    height: 350px;
+    width: 250px;
+    flex-wrap: wrap;
+    border: 5px solid #800080;
+    border-radius: 20px;
+}
+
+.card2 {
+    height: 350px;
+    flex-wrap: wrap;
+    width: 250px;
+    border: 5px solid #800080;
+    border-radius: 20px;
+}
+
+.card3 {
+    height: 350px;
+    width: 250px;
+    flex-wrap: wrap;
+    border: 5px solid #800080;
+    border-radius: 20px;
+}
+
+.card4 {
+    height: 350px;
+    width: 250px;
+    border: 5px solid #800080;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.card1 .fa-basket-shopping {
+    background-color: #94057B;
+    padding: 40px 40px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+.card1 h6 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.card1 p {
+    font-size: 14px;
+    flex-wrap: wrap;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.card1 button {
+    border: none;
+    font-size: 13px;
+    padding: 4px 15px 3px;
+    color: white;
+    flex-wrap: wrap;
+    font-weight: 700;
+    background-color: #94057B;
+    margin-top: 40px;
+}
+
+.card2 .fa-wordpress {
+    background-color: #94057B;
+    padding: 40px 40px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+.card2 h6 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.card2 p {
+    font-size: 14px;
+    flex-wrap: wrap;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+.card2 button {
+    border: none;
+    font-size: 13px;
+    padding: 4px 15px 3px;
+    color: white;
+    flex-wrap: wrap;
+    font-weight: 700;
+    background-color: #94057B;
+    margin-top: 20px;
+}
+
+.card3 .fa-angles-up {
+    background-color: #94057B;
+    padding: 40px 40px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+.card3 h6 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.card3 p {
+    font-size: 14px;
+    flex-wrap: wrap;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+.card3 button {
+    border: none;
+    font-size: 13px;
+    padding: 4px 15px 3px;
+    color: white;
+    flex-wrap: wrap;
+    font-weight: 700;
+    background-color: #94057B;
+    margin-top: 20px;
+}
+
+.card4 .fa-desktop {
+    background-color: #94057B;
+    padding: 40px 40px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+.card4 h6 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.card4 p {
+    font-size: 14px;
+    flex-wrap: wrap;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.card4 button {
+    border: none;
+    font-size: 13px;
+    padding: 4px 15px 3px;
+    color: white;
+    flex-wrap: wrap;
+    font-weight: 700;
+    background-color: #94057B;
+    margin-top: 20px;
+}
+
+@media (max-width:600px) {
+    .card {
+        width: 600px;
+    }
+
+    .card1 {
+        width: 350px;
+        margin-left: -80px;
+    }
+
+    .card2 {
+        width: 350px;
+        margin-left: -450px;
+        margin-top: 800px;
+    }
+
+    .card3 {
+        width: 350px;
+        margin-top: 1600px;
+        margin-left: -550px;
+    }
+
+    .card4 {
+        width: 350px;
+        margin-left: -652px;
+        margin-top: 2350px;
+    }
+}
+
+.poco {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card5 {
+    margin-left: -30px;
+}
+
+.container .card5 a {
+    margin-top: 50px;
+    text-decoration: none;
+    color: #8E0475;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.card5 p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.card5 button {
+    border: none;
+    padding: 10px 10px;
+    background-color: #9F2D84;
+    border-radius: 2px;
+    font-size: 13px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.container .card6 a {
+    margin-top: 50px;
+    text-decoration: none;
+    color: #8E0475;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.card6 p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.card6 button {
+    border: none;
+    padding: 10px 10px;
+    background-color: #9F2D84;
+    border-radius: 2px;
+    font-size: 13px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.card6 button:hover {
+    background-color: #450D3A;
+}
+
+.card5 button:hover {
+    background-color: #450D3A;
+}
+
+@media (max-width:600px) {
+    .poco {
+        margin-top: 1100px;
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+
+    .card5 {
+        margin-left: 0px;
+    }
+}
+
+.code {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 300px;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+}
+
+.car1 {
+    height: 400px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    background-color: #70055D;
+}
+
+.car1 img {
+    border: 5px solid rgb(240, 240, 154);
+    border-radius: 100%;
+    height: 120px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.car1 h3 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'cabin';
+    margin-top: 40px;
+}
+
+.car1 p {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.car1 button {
+    border: 0.1px solid white;
+    padding: 10px 10px;
+    font-size: 12px;
+    background-color: #FFD02E;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 70px;
+    transition: all 0.3s;
+}
+
+.car1 button:hover {
+    background-color: gray;
+    color: white;
+}
+
+@media (max-width:600px) {
+    .code {
+        margin-top: 2000px;
+    }
+}
+
+#page4 {
+    text-align: center;
+}
+
+#page4 video {
+    min-height: 450px;
+    width: 100%;
+    margin-top: -200px;
+}
+
+#page4 h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: -400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+#page4 p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+}
+
+#page4 h5 {
+    font-size: 18px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}
+
+#page4 h6 {
+    font-size: 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+@media (max-width:600px) {
+    #page4 video {
+        display: none;
+    }
+
+    #page4 {
+        height: 600px;
+        background-color: #8224E3;
+        margin-top: 1500px;
+    }
+
+    #page4 h3 {
+        padding-top: 70px;
+    }
+}
+
+footer {
+    height: 100vh;
+    width: 100%;
+    background-color: #1A1C27;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .Aish h2 {
+    font-weight: bold;
+    font-size: 22px;
+    color: lightgrey;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+.Aish p {
+    width: 300px;
+    color: lightgrey;
+    font-size: 14px;
+    margin-left: 100px;
+    line-height: 2em;
+}
+
+.Aish a {
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 14px;
+    margin-left: 100px;
+    transition: all 0.3s;
+    line-height: 2em;
+}
+
+.Aish a:hover {
+    color: #8E0475;
+}
+
+.company h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: lightgray;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.company a {
+    text-decoration: none;
+    font-size: 14px;
+    color: lightgray;
+    transition: all 0.3s;
+    line-height: 2.5em;
+    margin-left: 100px;
+
+}
+
+.fa-arrow-right {
+    color: #800080;
+
+}
+
+.company a:hover {
+    color: #8E0475;
+}
+
+.Touch h2 {
+    font-size: 22px;
+    color: lightgray;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+.Touch p {
+    font-size: 14px;
+    color: lightgray;
+    margin-left: 100px;
+    line-height: 2em;
+
+}
+
+.Touch a {
+    color: #9B2A7E;
+}
+
+.fa-facebook {
+    color: #9B2A7E;
+}
+
+.fa-instagram {
+    color: #9B2A7E;
+}
+
+.fa-twitter {
+    color: #9B2A7E;
+}
+
+.fa-skype {
+    color: #9B2A7E;
+}
+
+.Office h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: lightgray;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+.Office img {
+    margin-left: 100px;
+}
+
+@media (max-width:600px) {
+    footer{
+        height: 200vh;
+    }
+    footer .Aish h2 {
+        
+        padding-left: -200px;
+    }
+
+    .Aish p {
+        width: 370px;
+        margin-left: 10px;
+    }
+
+    .Aish a {
+        margin-left: 10px;
+    }
+
+    .company h2 {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .company a {
+        margin-left: 10px;
+    }
+    .Touch h2{
+        margin-top: 300px;
+        margin-left: -100px;
+
+    }
+    .Touch p{
+        margin-left: -100px;
+    }
+    .Office h2{
+        margin-top: 0px;
+        margin-left: 10px;
+
+    }
+    .Office img{
+        margin-left: 10px;
+    }
+}
